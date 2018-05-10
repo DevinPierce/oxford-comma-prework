@@ -4,7 +4,7 @@ def oxford_comma(array)
     string << array[0]
   else
     array.each_with_index do |word, i|
-      if (i < array.length - 1)
+      if (i < array.last)
         string << word + ', '
       else
         string << 'and ' + word

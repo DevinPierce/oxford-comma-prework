@@ -8,6 +8,7 @@ def oxford_comma(array)
         string << word + ', '
       else
         string << 'and ' + word
+      end
     end
   end
   string

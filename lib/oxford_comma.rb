@@ -1,6 +1,6 @@
 def oxford_comma(array)
   string = ''
-  for word in array do
+  array.each  do
     string << word + ', '
   end
   string

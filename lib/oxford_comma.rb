@@ -1,6 +1,6 @@
 def oxford_comma(array)
   string = ''
-  array.each  do
+  array.each_with_index do
     string << word + ', '
   end
   string
